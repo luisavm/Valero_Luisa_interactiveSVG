@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.6, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="legal" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 68.7 86.3" style="enable-background:new 0 0 68.7 86.3;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#border_1_);}
+	.st1{fill:url(#legal_2_);}
+</style>
+<linearGradient id="border_1_" gradientUnits="userSpaceOnUse" x1="1.1328" y1="686.0197" x2="67.609" y2="686.0197" gradientTransform="matrix(1 0 0 -1 0 768.3)">
+	<stop  offset="0" style="stop-color:#AD2537"/>
+	<stop  offset="1" style="stop-color:#AD2537;stop-opacity:0"/>
+</linearGradient>
+<rect id="border" x="1.1" y="78.5" class="st0" width="66.5" height="7.6"/>
+<linearGradient id="legal_2_" gradientUnits="userSpaceOnUse" x1="0.5285" y1="738.8984" x2="70.3285" y2="738.8984" gradientTransform="matrix(1 0 0 -1 0 768.3)">
+	<stop  offset="0" style="stop-color:#AD2537"/>
+	<stop  offset="1" style="stop-color:#AD2537;stop-opacity:0"/>
+</linearGradient>
+<polygon id="legal_1_" class="st1" points="0.5,37 9.3,28.3 22.1,41.2 61.7,0.2 70.3,8.7 21.8,58.6 "/>
+</svg>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.6, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="chart_x5F_9" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 128.7 144.4" style="enable-background:new 0 0 128.7 144.4;" xml:space="preserve">
+<style type="text/css">
+	.st0{opacity:0.5;}
+	.st1{fill:url(#SVGID_1_);}
+	.st2{fill:url(#gr_x5F_circle2_1_);stroke:#23272F;stroke-width:2;stroke-miterlimit:10;}
+	.st3{fill:#AD2537;}
+</style>
+<g>
+	<g id="gr_x5F_circle1" class="st0">
+		
+			<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="-256.65" y1="703.2917" x2="-127.9467" y2="703.2917" gradientTransform="matrix(0.97 0.243 0.243 -0.97 80.0006 808.998)">
+			<stop  offset="0" style="stop-color:#AD2537"/>
+			<stop  offset="1" style="stop-color:#AD2537;stop-opacity:0"/>
+		</linearGradient>
+		<path class="st1" d="M48.7,142.5C14.3,133.8-6.7,98.8,2,64.4C10.6,30,45.6,9,80,17.7s55.4,43.7,46.8,78.1
+			C118.3,130.1,83.3,151.2,48.7,142.5z M77.2,28.8c-28.2-7.1-57,10.1-64.1,38.4c-7.1,28.2,10.2,57,38.4,64.1
+			c28.2,7.1,57-10.1,64.1-38.4S105.4,35.9,77.2,28.8z"/>
+	</g>
+	
+		<linearGradient id="gr_x5F_circle2_1_" gradientUnits="userSpaceOnUse" x1="17.3713" y1="758.5827" x2="107.8251" y2="758.5827" gradientTransform="matrix(1 1.331089e-03 1.331089e-03 -1 0.7631 838.5758)">
+		<stop  offset="0" style="stop-color:#AD2537"/>
+		<stop  offset="1" style="stop-color:#AD2537;stop-opacity:0"/>
+	</linearGradient>
+	<circle id="gr_x5F_circle2" class="st2" cx="64.4" cy="80.1" r="45.2"/>
+	<g id="_x39_">
+		<path class="st3" d="M64.4,8.1v26.6c9.6,0,18.4,2.9,25.7,8.1l16.6-20.9C94.9,13.2,80.2,8.1,64.4,8.1z"/>
+	</g>
+</g>
+</svg>
