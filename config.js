@@ -3,7 +3,7 @@ const config = {
     port: 8889,
     uname: "root",
     pword: "root",
-    dbase: "lv_infographic"
+    dbase: "db_infographic"
 }
 
 module.exports = config;
