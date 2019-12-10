@@ -9,8 +9,10 @@
         // you can trigger animation, do an AJAX call... whatever
         handler: function(direction) {
           console.log('Scrolled to waypoint 1!')
+            this.element.classList.remove("hidden")
+            this.element.classList.add("slide-in-bottom")
         },
-        offset: "40%"
+        offset: "50%"
       })
 
       const waypoint2 = new Waypoint({
@@ -22,9 +24,11 @@
         // you can trigger animation, do an AJAX call... whatever
         handler: function(direction) {
           console.log('Scrolled to waypoint 2!')
+          this.element.classList.remove("hidden")
+            this.element.classList.add("slide-in-bottom")
         },
 
-        offset: "50%"
+        offset: "60%"
 
       })
 
@@ -37,9 +41,11 @@
         // you can trigger animation, do an AJAX call... whatever
         handler: function(direction) {
           console.log('Scrolled to waypoint 3-1!')
+          this.element.classList.remove("hidden")
+            this.element.classList.add("slide-in-bottom")
         },
 
-        offset: "70%"
+        offset: "80%"
 
       })
 
@@ -52,9 +58,11 @@
         // you can trigger animation, do an AJAX call... whatever
         handler: function(direction) {
           console.log('Scrolled to waypoint 3-2!')
+          this.element.classList.remove("hidden")
+          this.element.classList.add("slide-in-bottom")
         },
 
-        offset: "70%"
+        offset: "80%"
 
       })
 
@@ -67,9 +75,11 @@
         // you can trigger animation, do an AJAX call... whatever
         handler: function(direction) {
           console.log('Scrolled to waypoint 4!')
+          this.element.classList.remove("hidden")
+          this.element.classList.add("slide-in-bottom")
         },
 
-        offset: "80%"
+        offset: "90%"
 
       })
 
@@ -82,9 +92,11 @@
         // you can trigger animation, do an AJAX call... whatever
         handler: function(direction) {
           console.log('Scrolled to waypoint 5!')
+          this.element.classList.remove("hidden")
+            this.element.classList.add("slide-in-bottom")
         },
 
-        offset: "85%"
+        offset: "95%"
 
       })
 
@@ -97,9 +109,11 @@
         // you can trigger animation, do an AJAX call... whatever
         handler: function(direction) {
           console.log('Scrolled to waypoint 6-1!')
+           this.element.classList.remove("hidden")
+            this.element.classList.add("slide-in-bottom")
         },
 
-        offset: "90%"
+        offset: "100%"
 
       })
 
@@ -112,9 +126,11 @@
         // you can trigger animation, do an AJAX call... whatever
         handler: function(direction) {
           console.log('Scrolled to waypoint 6-2!')
+          this.element.classList.remove("hidden")
+          this.element.classList.add("slide-in-bottom")
         },
 
-        offset: "90%"
+        offset: "100%"
 
       })
 
@@ -127,9 +143,11 @@
         // you can trigger animation, do an AJAX call... whatever
         handler: function(direction) {
           console.log('Scrolled to waypoint 7!')
+          this.element.classList.remove("hidden")
+           this.element.classList.add("slide-in-bottom")
         },
 
-        offset: "100%"
+        offset: "110%"
 
       })
 
@@ -142,9 +160,11 @@
         // you can trigger animation, do an AJAX call... whatever
         handler: function(direction) {
           console.log('Scrolled to waypoint 8!')
+          this.element.classList.remove("hidden")
+           this.element.classList.add("slide-in-bottom")
         },
 
-        offset: "100%"
+        offset: "110%"
 
       })
       

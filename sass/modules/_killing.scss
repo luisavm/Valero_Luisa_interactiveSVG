@@ -1,0 +1,521 @@
+#botContainer {
+    display: flex;
+    flex-direction: column;
+    .slide-in-bottom {
+        -webkit-animation: slide-in-bottom 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+                animation: slide-in-bottom 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    }
+    @-webkit-keyframes slide-in-bottom {
+        0% {
+          -webkit-transform: translateY(500px);
+                  transform: translateY(500px);
+          opacity: 0;
+        }
+        100% {
+          -webkit-transform: translateY(0);
+                  transform: translateY(0);
+          opacity: 1;
+        }
+      }
+      @keyframes slide-in-bottom {
+        0% {
+          -webkit-transform: translateY(500px);
+                  transform: translateY(500px);
+          opacity: 0;
+        }
+        100% {
+          -webkit-transform: translateY(0);
+                  transform: translateY(0);
+          opacity: 1;
+        }
+      }
+    #botConLeft {
+        .killElep {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            padding-bottom: 9%;
+            margin-bottom: 10%;
+            border-bottom: solid white 1px;
+            width: 90%;
+            margin-left: auto;
+            margin-right: auto;
+            h2 {
+                font-size: 25px;
+                margin-bottom: 10%;
+            }
+            #killE-wrapper {
+                position: relative;
+                width: 180px;
+                img {
+                    position: absolute;
+                    left: 0;
+                }
+                #killE-text {
+                    .killIvory, .killIvory2 {
+                        p:nth-child(2) {
+                            color: $main-white;
+                            font-size: 18px;
+                            margin-bottom: 10%;
+                        }
+                    }
+                    .ivoryNumber {
+                        color: $main-red;
+                        font-size: 25px;
+                        line-height: 20px;
+                        width: 40%;
+                        margin-left: auto;
+                        margin-right: auto;
+                    }
+                }
+            }
+        }
+        .lastSafe {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            width: 90%;
+            margin-left: auto;
+            margin-right: auto;
+            padding-bottom: 10%;
+            border-bottom: solid white 1px;
+            margin-bottom: 10%;
+    
+            h2 {
+                align-self: center;
+                font-size: 25px;
+                margin-bottom: 10%;
+                width: 70%;
+            }
+            .bostwanaMap {
+                display: flex;
+                flex-direction: row;
+                margin-top:10%;
+                margin-bottom: 10%;
+                img {
+                    width: 90%;
+                }
+                .savannaElep {
+                    p {
+                        font-size: 25px;
+                        margin-bottom: 10%;
+                        font-family: $numbers-font
+                    }
+                    img {
+                        width: 70%;
+                    }
+                    img:nth-child(3) {
+                        width: 60%;
+                    }
+                }
+            }
+            #poachers {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                h3 {
+                    font-size: 25px;
+                    font-weight: normal;
+                    width: 60%;
+                    align-self: center;
+                    margin-bottom: 5%;
+                }
+                .poach-wrapper {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-evenly;
+                    .nine, .eightySeventh {
+                        position: relative;
+                        img {
+                            width: 70px;
+                            position: absolute;
+                            z-index: -99;
+                            left: 0;
+                            top: 20%;
+                        }
+                        .nineData, .eightySevData {
+                            width: 70px;
+                            p:nth-child(2) {
+                                font-size: 25px;
+                                margin-top: 40%;
+                                margin-bottom: 30%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    #midLine {
+        display: none;
+    }
+    #botConRight {
+        .elepTusk {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            width: 90%;
+            padding-bottom: 10%;
+            border-bottom: solid white 1px;
+            margin-bottom: 10%;
+            h2 {
+                font-size: 25px;
+                width: 70%;
+                align-self: center;
+                margin-bottom: 10%;
+            }
+            #elepTuskItems {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                .tItems {
+                    img {
+                        height: 70px;
+                        margin-bottom: 10px;
+                    }
+                    h4 {
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+        .demand {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            width: 90%;
+            padding-bottom: 10%;
+            border-bottom: solid white 1px;
+            margin-bottom: 10%;
+            h2 {
+                font-size: 25px;
+                width: 60%;
+                align-self: center;
+            }
+            .wHead {
+                font-size: 20px;
+                margin-bottom: 10%;
+            }
+            .aaMap {
+                display: flex;
+                flex-direction: row;
+                img {
+                    width: 150%;
+                }
+                #dom {
+                    display: flex;
+                    flex-direction: column;
+                    text-align: center;
+                    width: 140%;
+                    p {
+                        font-size: 18px;
+                        margin-top: 30%;
+                        margin-bottom: 20%;
+                    }
+                    h3 {
+                        font-weight: normal;
+                        font-size: 20px;
+                    }
+                    .asiaAllo, .asiaAllo1 {
+                        display: flex;
+                        flex-direction: row;
+                        img {
+                            width: 20%;
+                            margin-top: 7%;
+                        }
+                        p {
+                            font-size: 18px;
+                            line-height: 19px;
+                            width: 60%;
+                            text-align: left;
+                            margin-top: 5%;
+                            margin-bottom: 0;
+                            .redh {
+                                color: $main-red;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    #botContainer {
+        flex-direction: row;
+        justify-content: space-between;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+        #botConLeft {
+            width: 100%;
+            .killElep {
+                width: 90%;
+                margin-left: 0;
+                margin-right: 0;
+                padding-bottom: 5%;
+                h2 {
+                    font-size: 25px;
+                    margin-bottom: 7%;
+                }
+                #killE-wrapper {
+                    width: 250px;
+                    #killE-text {
+                        .ivoryNumber {
+                            font-size: 35px;
+                            line-height: 35px;
+                            font-family: $numbers-font;
+                        }
+                    }
+                }
+            }
+            .lastSafe {
+                width: 90%;
+                margin-left: 0;
+                margin-right: 0;
+                border-bottom: none;
+                margin-bottom: 0%;
+                h2 {
+                    font-size: 25px;
+                    width: 80%;
+                }
+                #poachers {
+                    h3 {
+                        font-size: 20px;
+                    }
+                    .poach-wrapper {
+                        .nine, .eightySeventh {
+                            img {
+                                width: 80px;
+                            }
+                            .nineData, .eightySevData {
+                                width: 80px;
+                                p:nth-child(2) {
+                                    font-size: 28px;
+                                    margin-top: 45%;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        #midLine {
+            display: block;
+            height: 700px;
+            border-right: solid white 1px;
+            margin-top: 3%;
+        }
+        #botConRight {
+            width: 100%;
+            .elepTusk {
+                margin-left: auto;
+                width: 80%;
+                padding-bottom: 10%;
+                h2 {
+                    font-size: 25px;
+                    width: 90%;
+                    margin-bottom: 15%;
+                }
+                #elepTuskItems {
+                    .tItems {
+                        img {
+                            height: 70px;
+                            margin-bottom: 20px;
+                        }
+                        h4 {
+                            font-size: 13px;
+                            font-weight: normal;
+                            margin-bottom: 22%;
+                        }
+                    }
+                }
+            }
+            .demand {
+                margin-left: auto;
+                width: 90%;
+                border-bottom: none;
+                margin-bottom: 0%;
+                h2 {
+                    font-size: 25px;
+                    line-height: 32px;
+                    width: 80%;
+                    align-self: center;
+                }
+                .wHead {
+                    font-size: 17px;
+                    letter-spacing: 0.5px;
+                    font-weight: normal;
+                }
+                .aaMap {
+                    img {
+                        width: 150%;
+                    }
+                    #dom {
+                        width: 120%;
+                        p {
+                            font-size: 20px;
+                            line-height: 19px;
+                            font-weight: normal;
+                            margin-top: 20%;
+                            margin-bottom: 30%;
+                        }
+                        h3 {
+                            font-weight: normal;
+                            font-size: 18px;
+                            margin-bottom: 10%;
+                        }
+                        .asiaAllo, .asiaAllo1 {
+                            img {
+                                width: 30%;
+                                margin-right: 5%;
+                            }
+                            p {
+                                font-size: 16px;
+                                line-height: 19px;
+                                width: 70%;
+                                .redh {
+                                    color: $main-red;
+                                    font-size: 17px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (min-width: 1200px) {
+    #botContainer {
+        #botConLeft {
+            .killElep {
+                h2 {
+                    font-size: 45px;
+                }
+                #killE-wrapper {
+                    width: 300px;
+                    #killE-text {
+                        .ivoryNumber {
+                            font-size: 40px;
+                            line-height: 45px;
+                            margin-bottom: 2%;
+                        }
+                    }
+                }
+            }
+            .lastSafe {
+                h2 {
+                    font-size: 45px;
+                    width: 70%;
+                }
+                .bostwanaMap {
+                    img {
+                        width: 110%;
+                    }
+                    .savannaElep {
+                        p {
+                            font-size: 35px;
+                            margin-bottom: 10%;
+                            #moreT {
+                                font-size: 20px;
+                            }
+                        }
+                    }
+                }
+                #poachers {
+                    h3 {
+                        font-size: 30px;
+                        font-weight: normal;
+                    }
+                    .poach-wrapper {
+                        .nine, .eightySeventh {
+                            img {
+                                width: 100px;
+                            }
+                            .nineData, .eightySevData {
+                                width: 100px;
+                                p:nth-child(2) {
+                                    font-size: 35px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        #midLine {
+            height: 1000px;
+            margin-top: 2%;
+        }
+        #botConRight {
+            .elepTusk {
+                h2 {
+                    font-size: 45px;
+                }
+                #elepTuskItems {
+                    .tItems {
+                        img {
+                            height: 90px;
+                            margin-bottom: 15px;
+                        }
+                        h4 {
+                            font-size: 18px;
+                            margin-bottom: 15%;
+                        }
+                    }
+                }
+            }
+            .demand {
+                h2 {
+                    font-size: 45px;
+                    line-height: 45px;
+                    width: 60%;
+                }
+                .wHead {
+                    font-size: 22px;
+                    letter-spacing: 1px;
+                }
+                .aaMap {
+                    img {
+                        width: 130%;
+                    }
+                    #dom {
+                        width: 110%;
+                        p {
+                            font-size: 25px;
+                            line-height: 27px;
+                            font-weight: normal;
+                        }
+                        h3 {
+                            font-size: 30px;
+                            font-weight: normal;
+                        }
+                        .asiaAllo, .asiaAllo1 {
+                            margin-bottom: 10%;
+                            img {
+                                width: 25%;
+                                margin-right: 8%;
+                            }
+                            p {
+                                font-size: 20px;
+                                font-weight: normal;
+                                line-height: 25px;
+                                width: 55%;
+                                .redh {
+                                    font-size: 22px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
