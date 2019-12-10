@@ -1,12 +1,57 @@
 @import '_vars';
 @import 'modules/_elephants';
-@import 'modules/_header';
+@import 'modules/_killing';
 
+.hidden {
+    display: none;
+}
 
 body { background-color: $body-bg;}
 
-p { color: $p-color; }
+h4, p { 
+    color: $main-white; 
+    font-family: $main-font;
+}
+h2, h3 {
+    color: $main-red;
+    font-family: $main-font;
+    font-weight: bold;
+}
 
+#main-header {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    h1 {
+        text-align: center;
+        color: $main-white;
+        font-family: $main-font;
+        font-size: 30px;
+        .redHead {
+            font-weight: bold;
+            color: $main-red;
+        }
+    }
+}
 
+@media screen and (min-width: 768px) {
+    #main-header {
+        margin-top: 5%;
+        margin-bottom: 5%;
+        h1 {
+            font-size: 70px;
+        }
+    }
+}
 
-
+@media screen and (min-width: 1200px) {
+    #main-header {
+        margin-top: 5%;
+        margin-bottom: 5%;
+        h1 {
+            font-size: 120px;
+        }
+    }
+}

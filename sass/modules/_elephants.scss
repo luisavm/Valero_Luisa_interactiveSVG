@@ -1,98 +1,191 @@
-#aboutElep{ 
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-top:10px;
-    padding:30px;
-
-    h5
-    {
-        margin-top:20px;
-        margin-left: 10px;
-        margin-right: 10px;
-        color: #f9f9fa;
-        font-family: $headings-font;
-        font-size: 25px;
-        line-height: 20px;
+#aboutElep {
+    .slide-in-bottom {
+        -webkit-animation: slide-in-bottom 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+                animation: slide-in-bottom 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
     }
+    @-webkit-keyframes slide-in-bottom {
+        0% {
+          -webkit-transform: translateY(500px);
+                  transform: translateY(500px);
+          opacity: 0;
+        }
+        100% {
+          -webkit-transform: translateY(0);
+                  transform: translateY(0);
+          opacity: 1;
+        }
+      }
+      @keyframes slide-in-bottom {
+        0% {
+          -webkit-transform: translateY(500px);
+                  transform: translateY(500px);
+          opacity: 0;
+        }
+        100% {
+          -webkit-transform: translateY(0);
+                  transform: translateY(0);
+          opacity: 1;
+        }
+      }
+      
+    .elepImage {
+        display: none;
+    }
+    #decNum {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        #firstP {
+            font-family: $numbers-font;
+            font-size: 20px;
+            width: 60%;
+            line-height: 22px;
+            margin-bottom: 5%;
+        }
+        h2 {
+            font-size: 25px;
+            margin-bottom: 5%;
+        }
+        .poElep, .remain {
+            position: relative;
+            width: 250px;
+            height: 70px;
+            img {
+                position: absolute;
+                z-index: -99;
+                top: 0;
+                left: 0;
+                width: 250px;
+            }
+            #sec2Img {
+                position: absolute;
+                z-index: -99;
+                top: 0;
+                left: 0;
+                width: 150px;
+            }
+            .sec1-1, .sec1-2 {
+                margin-left: 20%;
+                margin-bottom: 3%;
+                p:nth-child(1) {
+                    font-family: $numbers-font;
+                    font-size: 12px;
+                    text-align: left;
+                    margin-bottom: 2%;
+                }
+                p:nth-child(2) {
+                    font-family: $numbers-font;
+                    font-size: 18px;
+                    text-align: left;
+                    margin-bottom: 2%;
+                }
+            }
+            h4 {
+                margin-left: 20%;
+                text-align: left;
+            }
+        }
+    }
+}
+#aboutBorder {
+    width: 90%;
+    border-bottom: solid white 1px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
 
-//     h3
-//     {
-//         color: #F5EFEB;
-//         font-family: $heading3-font;
-//         font-size: 15px;
-//         line-height: 50px;
-//         text-transform: uppercase;
-//         letter-spacing: 0.6px;
-//     }
+@media screen and (min-width: 768px) {
+    #aboutElep {
+        display: flex;
+        flex-direction: row;
+        .elepImage {
+            display: block;
+            width: 70%;
+        }
+        #decNum {
+            #firstP {
+                font-size: 25px;
+                width: 65%;
+                line-height: 30px;
+                margin-bottom: 10%;
+                letter-spacing: 0.5px;
+            }
+            h2 {
+                font-size: 30px;
+                letter-spacing: 1px;
+                margin-bottom: 5%;
+            }
+            .poElep, .remain {
+                width: 350px;
+                height: 100px;
+                img {
+                    width: 350px;
+                }
+                #sec2Img {
+                    width: 220px;
+                }
+                .sec1-1, .sec1-2 {
+                    margin-bottom: 0;
+                    p:nth-child(1) {
+                        font-size: 20px;
+                        margin-bottom: 1%;
+                    }
+                    p:nth-child(2) {
+                        font-size: 30px;
+                        font-weight: bold;
+                    }
+                }
+                h4 {
+                    font-weight: normal;
+                }
+            }
+        }
+    }
+    #aboutBorder {
+        margin-bottom: 5%;
+    }
+}
 
-//     .short-des{
-
-//         margin-left: 10px;
-//         margin-right: 20px;
-//         color: #F5EFEB;
-//         font-family: $p-font;
-//         font-size: 15px;
-//         line-height: 22px;
-
-//     }
-
-//     .user-panel {
-//         flex: 0 1 200px;
-//         text-align: center;
-//         padding: 8px;
-//         display: flex;
-//         flex-direction: column;
-        
-
-//         .i-image { 
-//             max-width: 300px; 
-//             order: 1;
-//         }
-
-//         .rose-border{
-//             background-color: #A66E66;
-//             width: 290px;
-//             height: 210px;
-//             padding: 3px;
-//             order: 2;
-//             }
-
-//         .dessert-link {
-//             order: 3;
-//             button{
-//                 background-color: #bc918b;
-//                 border: none;
-//                 color: #F5EFEB;
-//                 padding: 11px 20px;
-//                 text-align: center;
-//                 text-decoration: none;
-//                 border-radius: 20px;
-//                 display: inline-block;
-//                 font-size: 12px;
-//                 margin-top:-20px;
-//                 margin-bottom:20px;
-//             }
-            
-//             button:hover{
-//                 background-color:#505766;
-//             }
-//         }
-    
-// }
-
-
-// @media screen and (min-width: 900px) {
-//     .threeFavouriteThings{
-//         .user-panel { 
-//             flex: 1 1;
-
-//             .i-image { 
-//                 max-width: 300px; 
-//             }
-//         }
-//     }
-// }
-
+@media screen and (min-width: 1200px) {
+    #aboutElep {
+        .elepImage {
+            width: 70%;
+        }
+        #decNum {
+            #firstP {
+                font-size: 38px;
+                width: 60%;
+                line-height: 50px;
+            }
+            h2 {
+                font-size: 45px;
+            }
+            .poElep, .remain {
+                width: 500px;
+                height: 150px;
+                img {
+                    width: 500px;
+                }
+                #sec2Img {
+                    width: 320px;
+                }
+                .sec1-1, .sec1-2 {
+                    margin-left: 20%;
+                    p:nth-child(1) {
+                        font-size: 20px;
+                        margin-bottom: 2.5%;
+                    }
+                    p:nth-child(2) {
+                        font-size: 48px;
+                    }
+                }
+                h4 {
+                    font-size: 18px;
+                }
+            }
+        }
+    }
 }
