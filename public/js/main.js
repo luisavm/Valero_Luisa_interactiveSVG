@@ -1,6 +1,6 @@
 (()=> {
     // try to get the object and do stuff with it
-
+  
     const waypoint = new Waypoint({
         // what element is this waypoint looking at?
         // the handler will fire when it scrolls into view
@@ -241,8 +241,7 @@
             .then(res => res.json())
             .then(data => {
                 console.log(data);
-
-                //populate the popover
+              
                 getDataKill2(data);
             })
             .catch((err) => console.log(err));
