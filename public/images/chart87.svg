@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.6, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="chart_x5F_87" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 135.6 135.8" style="enable-background:new 0 0 135.6 135.8;" xml:space="preserve">
+<style type="text/css">
+	.st0{opacity:0.5;fill:url(#SVGID_1_);enable-background:new    ;}
+	.st1{fill:#AD2537;}
+	.st2{fill:url(#circle_1_);stroke:#23272F;stroke-miterlimit:10;}
+</style>
+<g id="gr_x5F_circle">
+	<g>
+		<g>
+			
+				<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="116.816" y1="-1251.3394" x2="12.8938" y2="-1355.2615" gradientTransform="matrix(1 0 0 1 0 1368)">
+				<stop  offset="0" style="stop-color:#AD2537"/>
+				<stop  offset="1" style="stop-color:#AD2537;stop-opacity:0"/>
+			</linearGradient>
+			<path class="st0" d="M68,128.6c-33.4,0-60.8-27.2-60.8-60.8C7.2,34.4,34.4,7,68,7c33.4,0,60.8,27.2,60.8,60.8
+				C128.6,101.4,101.4,128.6,68,128.6z M68,18c-27.5,0-49.8,22.4-49.8,49.8c0,27.5,22.4,49.8,49.8,49.8c27.5,0,49.8-22.4,49.8-49.8
+				S95.3,18,68,18z"/>
+		</g>
+	</g>
+</g>
+<path id="red_x5F_cirle" class="st1" d="M68,0v25c23.6,0,42.9,19.1,42.9,42.9c0,23.6-19.1,42.9-42.9,42.9C44.3,110.9,25,91.8,25,68
+	c0-8.1,2.3-15.7,6.2-22.2L9.8,32.8C3.6,43.1,0,55.1,0,68c0,37.5,30.3,67.8,67.8,67.8c37.5,0,67.8-30.3,67.8-67.8
+	C135.8,30.5,105.5,0,68,0z"/>
+<linearGradient id="circle_1_" gradientUnits="userSpaceOnUse" x1="25.217" y1="-1300.1879" x2="110.5795" y2="-1300.1879" gradientTransform="matrix(1 0 0 1 0 1368)">
+	<stop  offset="0" style="stop-color:#AD2537"/>
+	<stop  offset="1" style="stop-color:#AD2537;stop-opacity:0"/>
+</linearGradient>
+<circle id="circle" class="st2" cx="68" cy="67.8" r="42.6"/>
+</svg>
